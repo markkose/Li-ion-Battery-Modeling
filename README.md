@@ -63,7 +63,7 @@ Resistance exported by EIS results vs charging/discharging current
 The diffusion phenomena are estimated by the HPPC method for different temperature, current and SOC conditions and the results for the fitting process are presented below.
 
 <p align="center">
-  <img src="pulses.png" alt="drawing" width="750"/>
+  <img src="pulses.png" alt="drawing" width="650"/>
 </p>
 
 The slow and fast electrochemical processes are combined by the model and they are presented below for the full range of SOC as well as for a discharge pulse. 
