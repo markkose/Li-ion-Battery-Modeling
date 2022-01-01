@@ -32,6 +32,8 @@ The diffusion phenomena are estimated via HPPC depending on the temperature, cur
   <img src="sim4.png" alt="drawing" width="750"/>
 </p>
 
+### Experiments
+
 The ohmic and charge transfer resistances are estimated by the EIS for different temperature, current and SOC conditions and the EIS results are presented below.
 
 EIS results vs SOC at 25°C
@@ -46,46 +48,30 @@ EIS results vs Temperature at 50% SOC
   <img src="eistemp.png" alt="drawing" width="750"/>
 </p>
 
+EIS results vs Current at 25°C
 
-![photo](Screenshots/Screenshot_8.png)
-![photo](Screenshots/Screenshot_9.png)
-![photo](Screenshots/Screenshot_10.png)
+<p align="center">
+  <img src="eiscurrent1.png" alt="drawing" width="750"/>
+</p>
 
-### Experiments
+Resistance exported by EIS results vs charging/discharging current
 
-For the first experiments we used cylindrical Li-ion cells (18650). The purpose was to check the function of the experimental topology. Below, it is shown the experimental circuits that we used in order to simulate the cell load and read the voltage values and store them.
+<p align="center">
+  <img src="eiscurrent.png" alt="drawing" width="750"/>
+</p>
 
-![photo](Screenshots/Screenshot_11.png)
+The diffusion phenomena are estimated by the HPPC method for different temperature, current and SOC conditions and the results for the fitting process are presented below.
 
-Below, we present the results
+<p align="center">
+  <img src="pulses.png" alt="drawing" width="750"/>
+</p>
 
-![photo](Screenshots/Screenshot_13.png)
+The slow and fast electrochemical processes are combined by the model and they are presented below for the full range of SOC as well as for a discharge pulse. 
 
+<p align="center">
+  <img src="overpotentials.png" alt="drawing" width="750"/>
+</p>
 
-Then we used some old battery cells (pouch cells) that our team used in our electric vehicle
-
-![photo](Screenshots/Screenshot_12.png)
-
-Below, we present the results
-
-![photo](Screenshots/Screenshot_14.png)
-
-### Modeling
-
-Below, it is presented the simulation voltages in comparison with the real voltages of a battery cell.
-
-![photo](Screenshots/Screenshot_15.png)
-![photo](Screenshots/Screenshot_16.png)
-
-Also, below it is presented the simulation voltages in comparison with the real voltages of a battery cell but now in a more real scenario. Here, the current of the battery cell is the current profile of an Endurance Event (22km track) of the race car.
-
-![photo](Screenshots/Screenshot_17.png)
-![photo](Screenshots/Screenshot_18.png)
-![photo](Screenshots/Screenshot_19.png)
-![photo](Screenshots/Screenshot_20.png)
-![photo](Screenshots/Screenshot_21.png)
-![photo](Screenshots/Screenshot_22.png)
-![photo](Screenshots/Screenshot_23.png)
-
-From these diagrams we were able to make some important observations. At first, we saw that the simulation voltages depend a lot by the LUT that we choose. Also, another factor that we ignored for the present moment was the temperature of the cell, which modifies by a lot the internal resistance of the cell and thus its voltage transient response. However, we noticed that the open-circuit voltage, which is subtracted by the voltage drop, is very accurate and depends on the C-Rate of each experiment.
-
+<p align="center">
+  <img src="overpotentials1.png" alt="drawing" width="750"/>
+</p>
