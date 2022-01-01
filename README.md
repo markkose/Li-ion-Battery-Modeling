@@ -11,12 +11,22 @@ The model is implemented in MATLAB/Simulink environment and some selective funct
 
 ![photo](sim1.png)
 
-Following, it is presented the calculations of the model.
+The SOC estimation is based on coulomb counting method and the block is presented below.
 
-![photo](Screenshots/Screenshot_3.png)
-![photo](Screenshots/Screenshot_4.png)
-![photo](Screenshots/Screenshot_5.png)
-![photo](Screenshots/Screenshot_6.png)
+![photo](sim2.png)
+
+The ohmic resistance R0 and the charge transfer resistance are estimated via EIS depending on the temperature, current and SOC variation and their modeling is shown below.
+
+![photo](sim3.png)
+
+The diffusion phenomena are estimated via HPPC depending on the temperature, current and SOC variation and they are modeled by 2RC branches as shown below.
+
+![photo](sim4.png)
+
+The ohmic and charge transfer resistances are estimated by the EIS for different temperature, current and SOC conditions and the EIS results are presented below.
+EIS results vs SOC at 25°C
+
+![photo](eis1.png)
 
 In order to find the parameters of the equivalent electrical circuit in LUT form, we used an algorithm from the libraries of MathWorks, called "Example_DischargePulseEstimation" (Matlab->toolbox->autoblks->autodemos). This algorithm takes as inputs data of cell discharge experimetns and by using curve fitting methods and calculates the open-circuit voltage, series resistance and RC branches with respect to the SOC. Those values are, then, assigned in the block Estimation equivalent circuit and Equivalent circuit battery library of MathWorks.
 
