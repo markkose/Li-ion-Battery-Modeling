@@ -75,3 +75,17 @@ The slow and fast electrochemical processes are combined by the model and they a
 <p align="center">
   <img src="overpotntials1.png" alt="drawing" width="750"/>
 </p>
+
+Finally, for the validation of the model a voltage-current profile from a real case scenario of the electric vehicle in the racetrack is used (Endurance Event FSAE Standards). Below it is presented the simulation voltage (red line) by the model in comparison with the real voltage (blue line) by the real case scenario. 
+
+<p align="center">
+  <img src="result.png" alt="drawing" width="750"/>
+</p>
+
+ A smaller time interval in a zoom view is shown below
+ 
+ <p align="center">
+  <img src="result zoom.png" alt="drawing" width="750"/>
+</p>
+
+As shown the model is capable to simulate the battery voltage with adequate precision.
