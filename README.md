@@ -5,7 +5,7 @@ The purpose of this project is to model the electrical behavior of a lithium-ion
 A 2-RC with two series resistances equivalent circuit is adopted since this way the battery performance can be modeled without significantly increasing the complexity of the model.
 
 
-![photo](Screenshots/Screenshot_1.png)
+![photo](Circuit)
 
 The capacitor C_batt indicates the capacitance that is saved in the cell and the dependant current source indicates the amplitude of the current that charges or discharges the battery. Thus, the left circuit simulates the state of charge (SOC) of the battery, which changes dynamically and depends on the values of the parameters of the right circuit.
 
