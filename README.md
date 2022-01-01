@@ -69,7 +69,7 @@ The diffusion phenomena are estimated by the HPPC method for different temperatu
 The slow and fast electrochemical processes are combined by the model and they are presented below for the full range of SOC as well as for a discharge pulse. 
 
 <p align="center">
-  <img src="overpotntials.png" alt="drawing" width="650"/>
+  <img src="overpotntials.png" alt="drawing" width="600"/>
 </p>
 
 <p align="center">
