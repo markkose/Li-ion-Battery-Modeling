@@ -1,10 +1,9 @@
-# Li-ion Battery Electrical Modeling
+# Lithium-ion Battery Electrical Modeling
 
-### Simulation background
+The purpose of this project is to model the electrical behavior of a lithium-ion battery initially in cell level so that the model can be afterwards applied for the whole battery pack of the vehicle. A 18650 cell is modeled taking into consideration the temperature, current and SOC variations. For the model implementation a hybrid approach is adopted, where the fast electrochemical processes such as the ohmic and the charge transfer losses are estimated by the Electrochemical Impedance Spectroscopy (EIS) technique, while the slow electrochemical processes such as the diffusion phenomena are modeled by the current pulse method or Hybrid Power Pulse Characterization (HPPC).
 
-The purpose of this project was to model the electrical behavior of the battery that our team uses (Aristotle University Racing Team Electric - ARISTURTLE). Modeling of the battery requires the calculation of the state of charge of the cells and the knowlegde of the cells' voltages for various currents amplitudes. In parallel, during this process, we took into consideration the variations in the cell capacitance, energy and internal resistance.
+A 2-RC with two series resistances equivalent circuit is adopted since this way the battery performance can be modeled without significantly increasing the complexity of the model.
 
-For the modeling of the battery, we used the equivalent electrical circuit that is shown below.
 
 ![photo](Screenshots/Screenshot_1.png)
 
