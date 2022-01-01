@@ -10,7 +10,9 @@ A 2-RC with two series resistances equivalent circuit is adopted since this way 
 
 The model is implemented in MATLAB/Simulink environment and some selective function blocks of the model are presented below
 
-![photo](sim1.png)
+<p align="center">
+  <img src="sim1.png" alt="drawing" width="750"/>
+</p>
 
 The SOC estimation is based on coulomb counting method and the block is presented below.
 
