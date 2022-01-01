@@ -4,7 +4,7 @@ The purpose of this project is to model the electrical behavior of a lithium-ion
 
 A 2-RC with two series resistances equivalent circuit is adopted since this way the battery performance can be modeled without significantly increasing the complexity of the model.
 
-<img src="circuit.png" alt="drawing" width="2000"/>
+<img src="circuit.png" alt="drawing" width="1000"/>
 ![photo](circuit.png)
 
 The model is implemented in MATLAB/Simulink environment and some selective function blocks of the model are presented below
