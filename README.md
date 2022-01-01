@@ -24,13 +24,16 @@ The diffusion phenomena are estimated via HPPC depending on the temperature, cur
 ![photo](sim4.png)
 
 The ohmic and charge transfer resistances are estimated by the EIS for different temperature, current and SOC conditions and the EIS results are presented below.
+
 EIS results vs SOC at 25°C
 
-![photo](eis1.png)
+![photo](eissoc.png)
 
-In order to find the parameters of the equivalent electrical circuit in LUT form, we used an algorithm from the libraries of MathWorks, called "Example_DischargePulseEstimation" (Matlab->toolbox->autoblks->autodemos). This algorithm takes as inputs data of cell discharge experimetns and by using curve fitting methods and calculates the open-circuit voltage, series resistance and RC branches with respect to the SOC. Those values are, then, assigned in the block Estimation equivalent circuit and Equivalent circuit battery library of MathWorks.
+EIS results vs Temperature at 50% SOC
 
-![photo](Screenshots/Screenshot_7.png)
+![photo](eistemp.png)
+
+
 ![photo](Screenshots/Screenshot_8.png)
 ![photo](Screenshots/Screenshot_9.png)
 ![photo](Screenshots/Screenshot_10.png)
