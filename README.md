@@ -2,7 +2,7 @@
 
 The purpose of this project is to model the electrical behavior of a lithium-ion battery initially in cell level so that the model can be afterwards applied for the whole battery pack of the vehicle. A 18650 cell is modeled taking into consideration the temperature, current and SOC variations. For the model implementation a hybrid approach is adopted, where the fast electrochemical processes such as the ohmic and the charge transfer losses are estimated by the Electrochemical Impedance Spectroscopy (EIS) technique, while the slow electrochemical processes such as the diffusion phenomena are modeled by the current pulse method or Hybrid Power Pulse Characterization (HPPC).
 
-A 2-RC with two series resistances equivalent circuit is adopted since this way the battery performance can be modeled without significantly increasing the complexity of the model.
+An equivalent circuit with 2-RC branches and two series resistances is adopted since this way the battery performance can be accurately modeled without significantly increasing the complexity of the model.
 
 <p align="center">
   <img src="circuit.png" alt="drawing" width="650"/>
