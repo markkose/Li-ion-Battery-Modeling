@@ -16,25 +16,35 @@ The model is implemented in MATLAB/Simulink environment and some selective funct
 
 The SOC estimation is based on coulomb counting method and the block is presented below.
 
-![photo](sim2.png)
+<p align="center">
+  <img src="sim2.png" alt="drawing" width="750"/>
+</p>
 
 The ohmic resistance R0 and the charge transfer resistance are estimated via EIS depending on the temperature, current and SOC variation and their modeling is shown below.
 
-![photo](sim3.png)
+<p align="center">
+  <img src="sim3.png" alt="drawing" width="750"/>
+</p>
 
 The diffusion phenomena are estimated via HPPC depending on the temperature, current and SOC variation and they are modeled by 2RC branches as shown below.
 
-![photo](sim4.png)
+<p align="center">
+  <img src="sim4.png" alt="drawing" width="750"/>
+</p>
 
 The ohmic and charge transfer resistances are estimated by the EIS for different temperature, current and SOC conditions and the EIS results are presented below.
 
 EIS results vs SOC at 25°C
 
-![photo](eissoc.png)
+<p align="center">
+  <img src="eissoc.png" alt="drawing" width="750"/>
+</p>
 
 EIS results vs Temperature at 50% SOC
 
-![photo](eistemp.png)
+<p align="center">
+  <img src="eistemp.png" alt="drawing" width="750"/>
+</p>
 
 
 ![photo](Screenshots/Screenshot_8.png)
