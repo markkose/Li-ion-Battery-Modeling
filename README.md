@@ -48,7 +48,7 @@ EIS results vs Temperature at 50% SOC
   <img src="eistemp.png" alt="drawing" width="750"/>
 </p>
 
-EIS results vs Current at 25°C
+EIS results vs Current at 5°C
 
 <p align="center">
   <img src="eiscurrent1.png" alt="drawing" width="750"/>
