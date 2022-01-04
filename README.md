@@ -54,7 +54,7 @@ EIS results vs Current at 5°C
   <img src="eiscurrent1.png" alt="drawing" width="750"/>
 </p>
 
-Resistance exported by EIS results vs charging/discharging current
+Resistance exported by EIS results vs charging/discharging current for different temperatures
 
 <p align="center">
   <img src="eiscurrent.png" alt="drawing" width="750"/>
