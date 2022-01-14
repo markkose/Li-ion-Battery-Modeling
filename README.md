@@ -21,7 +21,7 @@ The SOC estimation is based on coulomb counting method and it is presented below
   <img src="sim2.png" alt="drawing" width="750"/>
 </p>
 
-The ohmic resistance R0 and the charge transfer resistance are estimated via EIS depending on the temperature, current and SOC variation and their modeling is shown below.
+The ohmic resistance R0 and the charge transfer resistance are estimated via EIS depending on the temperature, current and SOC variations and their modeling is shown below.
 
 <p align="center">
   <img src="sim3.png" alt="drawing" width="750"/>
