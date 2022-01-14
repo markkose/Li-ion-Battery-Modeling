@@ -15,7 +15,7 @@ The model is implemented in MATLAB/Simulink environment and some selective funct
   <img src="sim1.png" alt="drawing" width="750"/>
 </p>
 
-The SOC estimation is based on coulomb counting method and the block is presented below.
+The SOC estimation is based on coulomb counting method and it is presented below.
 
 <p align="center">
   <img src="sim2.png" alt="drawing" width="750"/>
